@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.ServletToHibernate.Naukar" table="T_Naukar">
+		<id name="id" type="int" column="T_id">
+			<generator class="native"></generator>
+		</id>
+
+		<property name="name" column="T_Name" type="string"></property>
+		<property name="mobile" column="T_Mobile" type="string"></property>
+		<property name="age" column="T_age" type="int"></property>
+
+	</class>
+
+</hibernate-mapping>  
+ 
